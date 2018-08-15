@@ -14,3 +14,13 @@
 Your task here is to write a function to check a sentence to see if it is a pangram or not.
 
 [Solution](solution_3.py)
+
+4. Take a list, say for example this one:
+
+```python
+a=[1,1,2,3,5,8,13,  21,  34,  55,  89]   
+```
+
+and write a program that prints out all the elements of the list that are less than 5.
+
+[Solution](solution_4.py)
