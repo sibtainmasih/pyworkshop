@@ -35,6 +35,18 @@ and write a program that prints out all the elements of the list that are less t
 
 8. Write a Python script to sort (ascending and descending) a dictionary by value.
 
+**Solution:**
+
+```python
+>>> d = dict(a=12,b=21,c=3,d=19,e=11,f=7,g=12)
+
+>>> sorted(d.items(),key=lambda val:val[1])   					# Ascending of values 
+[('c', 3), ('f', 7), ('e', 11), ('a', 12), ('g', 12), ('d', 19), ('b', 21)]
+
+>>> sorted(d.items(),key=lambda val:val[1], reverse=True)			# Descending of values
+[('b', 21), ('d', 19), ('a', 12), ('g', 12), ('e', 11), ('f', 7), ('c', 3)]
+```
+
 9. Write a Python script to concatenate following dictionaries to create a new one.
 Sample Dictionary :  
 
