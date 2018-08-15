@@ -76,3 +76,13 @@ Expected Result :
 ```
 
 10. Write a Python program to sum all the items in a dictionary.
+
+**Solution**:
+
+```python
+>>> d = dict(a=12,b=21,c=3,d=19,e=11,f=7,g=12)
+>>> sum(d.values())
+85
+```
+
+Caveat: Here the assumption is values in the dictionary are of same type (int, float, str, list) and sum can be performed on them.
