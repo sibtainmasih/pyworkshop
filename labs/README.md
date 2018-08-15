@@ -1,3 +1,7 @@
+# Python Data Structures - Lab and Solutions
+
+Following questions are taken from **Python Programming Practical** for SY B.Sc. (IT), Mumbai University. [Reference](http://mu.ac.in/portal/wp-content/uploads/2016/06/4.233-S.Y.B.Sc_.-Information-Technology.pdf)  
+
 1. Write a function that takes a character (i.e. a string of length 1) and returns True if it is a vowel, False otherwise. 
 
 [Solution](solution_1.py)
@@ -18,7 +22,7 @@ Your task here is to write a function to check a sentence to see if it is a pang
 4. Take a list, say for example this one:
 
 ```python
-a=[1,1,2,3,5,8,13,  21,  34,  55,  89]   
+a=[1,3,12,4,7,31,9,5,20,19,21,100,43,32,71]
 ```
 
 and write a program that prints out all the elements of the list that are less than 5.
