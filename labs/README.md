@@ -24,3 +24,7 @@ a=[1,1,2,3,5,8,13,  21,  34,  55,  89]
 and write a program that prints out all the elements of the list that are less than 5.
 
 [Solution](solution_4.py)
+
+5. Write a program that takes two lists and returns True if they have at least one common member.
+
+[Solution](solution_5.py)
