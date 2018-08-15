@@ -33,6 +33,18 @@ and write a program that prints out all the elements of the list that are less t
 
 7. Write a Python program to clone or copy a list.
 
+**Solution:**
+
+```python
+>>> l1 = [1,2,3]
+>>> l2 = l1[:]			# Shallow Copy
+>>> import copy
+>>> l2 = copy.copy(l1)		# Shallow Copy
+>>> l2 =  copy.deepcopy(l1)	# Deep Copy
+```
+
+[Click Here for detailed example](solution_7.md)
+
 8. Write a Python script to sort (ascending and descending) a dictionary by value.
 
 **Solution:**
