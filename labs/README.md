@@ -28,3 +28,39 @@ and write a program that prints out all the elements of the list that are less t
 5. Write a program that takes two lists and returns True if they have at least one common member.
 
 [Solution](solution_5.py)
+
+6. Write a Python program to print a specified list after removing the 0th, 2nd, 4th and 5th elements.
+
+7. Write a Python program to clone or copy a list.
+
+8. Write a Python script to sort (ascending and descending) a dictionary by value.
+
+9. Write a Python script to concatenate following dictionaries to create a new one.
+Sample Dictionary :  
+
+```python
+dic1={1:10, 2:20} 
+dic2={3:30, 4:40} 
+dic3={5:50,6:60}
+```
+ 
+Expected Result : 
+
+```python
+{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```
+
+**Solution:**
+
+```python
+>>> dic1={1:10, 2:20} 
+>>> dic2={3:30, 4:40} 
+>>> dic3={5:50,6:60} 
+>>> dic4=dic1.copy()
+>>> dic4.update(dic2)
+>>> dic4.update(dic3)
+>>> dic4
+{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```
+
+10. Write a Python program to sum all the items in a dictionary.
