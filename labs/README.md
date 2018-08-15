@@ -31,6 +31,27 @@ and write a program that prints out all the elements of the list that are less t
 
 6. Write a Python program to print a specified list after removing the 0th, 2nd, 4th and 5th elements.
 
+**Solution:**
+
+```python
+>>> my_list = [0,1,2,3,4,5,6,7,8,9]
+>>> my_list = my_list[1:2]+my_list[3:4]+my_list[6:]
+>>> my_list
+[1, 3, 6, 7, 8, 9]
+```
+
+Note: Following can **not** be a solution.
+
+```python
+>>> my_list = [0,1,2,3,4,5,6,7,8,9]
+>>> del my_list[0]
+>>> del my_list[2]
+>>> del my_list[4]
+>>> del my_list[5]
+>>> my_list
+[1, 2, 4, 5, 7, 9]
+```
+
 7. Write a Python program to clone or copy a list.
 
 **Solution:**
@@ -52,10 +73,10 @@ and write a program that prints out all the elements of the list that are less t
 ```python
 >>> d = dict(a=12,b=21,c=3,d=19,e=11,f=7,g=12)
 
->>> sorted(d.items(),key=lambda val:val[1])   					# Ascending of values 
+>>> sorted(d.items(),key=lambda val:val[1])   					# Ascending by values 
 [('c', 3), ('f', 7), ('e', 11), ('a', 12), ('g', 12), ('d', 19), ('b', 21)]
 
->>> sorted(d.items(),key=lambda val:val[1], reverse=True)			# Descending of values
+>>> sorted(d.items(),key=lambda val:val[1], reverse=True)			# Descending by values
 [('b', 21), ('d', 19), ('a', 12), ('g', 12), ('e', 11), ('f', 7), ('c', 3)]
 ```
 
