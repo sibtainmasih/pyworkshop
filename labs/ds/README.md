@@ -30,7 +30,7 @@ True
 [10, 50]
 ```
 
-[Solution] (list_solution_1.py)
+[Solution](list_solution_1.py)
 
 2. Write a function to flatten a nested list.
 
@@ -51,3 +51,10 @@ True
 ```
 
 [Solution](list_solution_3.py)
+
+4. Define a procedure histogram() that takes a list of integers and prints a histogram to the screen. For example, histogram([4, 9, 7]) should print the following:
+<br/>&#42;&#42;&#42;&#42; <br/>
+&#42;&#42;&#42;&#42;&#42;&#42;&#42;&#42;&#42; <br/>
+&#42;&#42;&#42;&#42;&#42;&#42;&#42; <br/>
+
+[Solution](../sy_bsc_it/solution_2.py)
