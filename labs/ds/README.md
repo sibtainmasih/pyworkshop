@@ -32,5 +32,14 @@ True
 
 [Solution] (list_solution_1.py)
 
-2. 
+2. Write a function to flatten a nested list.
+
+```python
+>>> input = [['A','B'],['C','D'],['E','F']]
+>>> my_flat_list_fn(input)
+['A', 'B', 'C', 'D', 'E', 'F']
+```
+
+[Solution](list_solution_2.py)
+
 
