@@ -58,3 +58,49 @@ True
 &#42;&#42;&#42;&#42;&#42;&#42;&#42; <br/>
 
 [Solution](../sy_bsc_it/solution_2.py)
+
+## Tuple
+
+1. Write a program to swap values of two variables without using a third variable.
+
+**Solution:**
+
+```python
+a = 10
+b = 20
+a, b = b, a
+```
+
+2. Create a tuple with a single element "A".
+
+**Solution:**
+
+```python
+t = ('A',)
+```
+
+3. Predict the output and tell me WHY?
+
+```python
+>>> x = 10
+>>> y = 20
+>>> x, y = y, x+y
+```
+
+**Solution:**
+
+```
+>>> x = 10
+>>> y = 20
+>>> x, y = y, x+y
+>>> x
+20
+>>> y
+30
+```
+
+Reason is tuple packing and unpacking.
+
+## Dictionary
+
+
