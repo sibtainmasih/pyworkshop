@@ -162,3 +162,8 @@ Expected Result :
 >>> dic4
 {1: 10, 2: 20, 3: 30, 4: 50, 5: 60}
 ```
+
+## FINAL LAB
+
+[Question](final_lab.md)
+[Solution](final_lab_solution.py)
