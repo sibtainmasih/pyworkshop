@@ -2,7 +2,7 @@
 
 ## String
 
-1. Write a function that takes a character (i.e. a string of length 1) and returns "Vowel" if it is a vowel, "Consonant" otherwise.
+1. Write a function that takes a character (i.e. a string of length 1) and returns `True` if it is a vowel, `False` otherwise.
 
 [Solution](../sy_bsc_it/solution_1.py)
 
@@ -121,3 +121,44 @@ Reason is tuple packing and unpacking.
  
 [Solution](../sy_bsc_it/solution_3.py)
 
+
+## Dictionary
+
+1. Write a program to print following dictionary in 
+* Lexical order of Country Name
+* Descending order of Country Name length
+
+```python
+>>> capitals = {'India': 'Delhi', 'Bangladesh': 'Dhaka', 'England': 'London', 'Canada': 'Ottawa'}
+```
+
+[Solution](dict_solution_1.py)
+
+2. Write a Python script to concatenate following dictionaries to create a new one.
+Sample Dictionary :  
+
+```python
+dic1 = { 1: 10, 2: 20 } 
+dic2 = { 3: 30, 4: 40 } 
+dic3 = { 4: 50, 5: 60 }
+```
+ 
+Expected Result : 
+
+```python
+{ 1: 10, 2: 20, 3: 30, 4: 50, 5: 60 }
+```
+
+**Solution:**
+
+
+```python
+>>> dic1 = { 1: 10, 2: 20 } 
+>>> dic2 = { 3: 30, 4: 40 } 
+>>> dic3 = { 4: 50, 5: 60 }
+>>> dic4 = dic1.copy()
+>>> dic4.update(dic2)
+>>> dic4.update(dic3)
+>>> dic4
+{1: 10, 2: 20, 3: 30, 4: 50, 5: 60}
+```
