@@ -43,3 +43,11 @@ True
 [Solution](list_solution_2.py)
 
 
+3. Write a function that takes a word and a character as input and returns a list with index positions of the character in the word.
+
+```python
+>>> my_char_index_fn("mississippi", "s")
+[2, 3, 5, 6]
+```
+
+[Solution](list_solution_3.py)
