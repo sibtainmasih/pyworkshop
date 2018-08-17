@@ -101,6 +101,23 @@ t = ('A',)
 
 Reason is tuple packing and unpacking.
 
-## Dictionary
+## Set
 
+1. Write a functions that takes a word returns consonants in that word.
+
+```python
+>>> word="Independence"
+>>> get_consonants(word)
+{'c', 'd', 'p', 'n'}
+```
+
+[Solution](set_solution_1.py)
+
+2. Write a function that takes two lists and returns True if they have at least one common member, False otherwise.
+
+[Solution](../sy_bsc_it/solution_5.py)
+
+3. A pangram is a sentence that contains all the letters of the English alphabet at least once, for example: The quick brown fox jumps over the lazy dog. Your task here is to write a function to check a sentence to see if it is a pangram or not.
+ 
+[Solution](../sy_bsc_it/solution_3.py)
 
