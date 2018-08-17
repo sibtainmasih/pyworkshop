@@ -8,6 +8,8 @@
 
 2. Write a function that takes a string and prints count of letters and digits in that string.
 
+[Solution](solution_2.py)
+
 3. Write a function that checks if a string is palindrome. E.g. 
 
 ```python
@@ -15,6 +17,8 @@
 >>> is_palindrome(msg)
 True
 ```
+
+[Solution](../sy_bsc_it/solution_3.py)
 
 ## List
 
